@@ -1,0 +1,64 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="template.master.cs" Inherits="AssignmentSite.template" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+
+    </asp:ContentPlaceHolder>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <script src="javaScript/JavaScript.js"></script>
+    <link href="~/style/style.css" rel="stylesheet" />
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div id="wrapper">
+
+            <div id="header">
+
+                <asp:Image ID="imgBanner" runat="server" AlternateText="Banner image of the luminous skate supply logo" ImageAlign="Middle" ImageUrl="~/images/throwLogo.png" />
+
+                <asp:ImageButton ID="imbCart" runat="server" AlternateText="Cart" ImageAlign="Middle" ImageUrl="~/images/cart.png" PostBackUrl="~/cart.aspx" />
+
+                <asp:ImageButton ID="imbLogin" runat="server" AlternateText="Login" ImageAlign="Middle" ImageUrl="~/images/login.png" PostBackUrl="~/login.aspx" />
+
+                <asp:Label ID="loginStatus" runat="server" Text="Label"></asp:Label>
+
+            </div>
+
+            <div id="navigation">
+
+                <br/><br/>
+
+                <asp:HyperLink ID="hlHome" runat="server" CssClass="navLinks" NavigateUrl="~/home.aspx" ForeColor="Orange">Home</asp:HyperLink><br/><br/>
+
+                <asp:HyperLink ID="hlProducts" runat="server" CssClass="navLinks" NavigateUrl="~/products.aspx" ForeColor="Orange">Products</asp:HyperLink><br/><br/>
+
+                <asp:HyperLink ID="hlAbout" runat="server" CssClass="navLinks" NavigateUrl="~/about.aspx" ForeColor="Orange">About</asp:HyperLink><br/><br/>
+
+                <asp:HyperLink ID="hlBlog" runat="server" CssClass="navLinks" ForeColor="Orange" NavigateUrl="~/blog.aspx">Blog</asp:HyperLink><br/><br/>
+
+                <asp:HyperLink ID="hlAdmin" runat="server" CssClass="navLinks" ForeColor="Orange" Visible="False" NavigateUrl="~/admin/admin.aspx">Admin</asp:HyperLink><br/><br/>
+
+            </div>    
+
+            <div id="content">
+
+                <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+
+                </asp:ContentPlaceHolder>
+
+            </div>
+
+            <div id="footer">
+                <p style="padding:2%;">© 2023 Luminous Skate Supply</p>
+                <p style="padding:2%;"><asp:HyperLink ID="hlContact" runat="server" NavigateUrl="~/about.aspx" ForeColor="#7E7F9A" Font-Size="Medium">Contact Us</asp:HyperLink></p>
+            </div>
+
+        </div>
+    </form>
+</body>
+</html>

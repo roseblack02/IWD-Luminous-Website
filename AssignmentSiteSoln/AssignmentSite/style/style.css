@@ -1,0 +1,458 @@
+﻿body {
+    font-family: Arial, sans-serif;
+    font-size: 1.2em;
+    color: #7E7F9A;
+}
+
+h1{
+    text-align:center;
+}
+
+#wrapper{
+    width: 100%;
+    background-color:white;
+    margin:auto;
+}
+
+#header {
+    width: 100%;
+    background-color:white;
+}
+
+#navigation {
+    float: left;
+    width: 15%;
+    background-color: white;
+    clear: both;
+    margin-left: 0px;
+}
+
+#content {
+    float: left;
+    width: 85%;
+    background-color: white;
+}
+
+#footer {
+    clear: both;
+    background-color: #FFA500;
+    text-align: center;
+}
+
+#imgBanner {
+    float:left;
+    width:15%;
+}
+
+#loginStatus {
+    float: right;
+    margin: 2% 2% 1% 2%;
+}
+
+#imbLogin {
+    float: right;
+    width: 3%;
+    margin: 1% 2% 1% 2%;
+}
+
+#imbLogin:hover {
+    opacity: 0.3;
+    transition: .3s ease;
+}
+
+#imbCart {
+    float: right;
+    width: 3%;
+    margin: 1% 2% 1% 2%;
+}
+
+#imbCart:hover {
+    opacity: 0.3;
+    transition: .3s ease;
+}
+
+.navLinks {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+    text-align: center;
+    background-color: white;
+    border: 2px solid #FFA500;
+    border-radius: 5px;
+    padding: 2%;
+}
+
+.navLinks:hover {
+    background-color:#EAF6FF;
+    transition: .3s ease;
+}
+
+#adRotator {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+    background-color: #7E7F9A;
+    padding: 3px;
+}
+
+#adRotator:hover #arSales {
+    opacity: 0.3;
+    transition: .3s ease;
+}
+
+#aboutUs {
+    margin:2% auto 2% auto;
+    text-align: center;
+    width: 65%;
+}
+
+.socialMediaLinks {
+    margin: 2% auto 2% auto;
+    width: 65%;
+}
+
+.socialMedia{
+    width:26%;
+    margin:0 11% 0 11%;
+}
+
+.socialMedia:hover {
+    opacity: 0.3;
+    transition: .3s ease;
+}
+
+.imageWithCaption {
+    width: 30%;
+    vertical-align: top;
+    display: inline-block;
+    text-align: center;
+    margin: 1.5%;
+}
+
+.caption {
+    display: block;
+}
+
+.imageWithCaption:hover .image {
+    opacity: 0.3;
+    transition: .3s ease;
+}
+
+.productImage {
+    width:90%;
+    vertical-align: top;
+    display: block;
+    text-align: center;
+    margin-top: 5%;
+    margin-right: auto;
+    margin-bottom:20%;
+    margin-left: auto;
+}
+
+.imgProduct{
+    float:left;
+    width:40%;
+}
+
+.addToCart {
+    float: right;
+    width:30%;
+    margin:0 15% 0 15%;
+}
+
+.description {
+    float: right;
+    display: block;
+    width:60%;
+}
+
+.login {
+    display: block;
+    margin-top: 5%;
+    margin-right: auto;
+    margin-bottom: 20%;
+    margin-left: auto;
+    width:50%;
+}
+
+.inputLable {
+    margin: 5% 1% 5% 1%;
+    width:33%;
+}
+
+.textBox {
+    margin: 5% 1% 5% 1%;
+    background-color: white;
+    border: 2px solid #FFA500;
+    border-radius: 5px;
+    width:47%;
+}
+
+.enter {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 25%;
+    background-color: white;
+    border: 2px solid #FFA500;
+    border-radius: 5px;
+    padding: 2%;
+    text-align:center;
+}
+
+.enter:hover {
+    background-color: #EAF6FF;
+    transition: .3s ease;
+}
+
+.cartButtons {
+    width: 25%;
+    text-align: center;
+    background-color: white;
+    border: 2px solid #FFA500;
+    border-radius: 5px;
+    padding: 2%;
+    margin:5%;
+}
+
+.cartButtons:hover {
+    background-color: #EAF6FF;
+    transition: .3s ease;
+}
+
+.login {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.messageBox {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    min-height: 60%;
+    text-align: left;
+}
+
+.messageText {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 25%;
+    min-height: 20%;
+    text-align: left;
+}
+
+.messageEnter {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 10%;
+    background-color: white;
+    border: 2px solid #FFA500;
+    border-radius: 5px;
+    padding: 1%;
+    text-align: center;
+    margin-top: 1%;
+    margin-bottom: 5%;
+}
+
+.messageEnter:hover {
+    background-color: #EAF6FF;
+    transition: .3s ease;
+}
+
+.messageLabel {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+/*For carousel*/
+/* universal */
+* {
+    box-sizing: border-box
+}
+
+/*slide image container*/
+.mySlides {
+    display: none;
+}
+
+/*image allignemnt*/
+.slideImage {
+    vertical-align: middle;
+}
+
+/* Slideshow container */
+.slideshow-container {
+    max-width: 50%;
+    position: relative;
+    margin: auto auto 10% auto;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 2%;
+    margin-top: -2%;
+    color: #FFA500;
+    font-weight: bold;
+    font-size: 1.2em;
+    transition: 0.6s ease;
+    border-radius: 0 1% 1% 0;
+    user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+    right: 0;
+    border-radius: 1% 0 0 1%;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+    background-color: #7E7F9A;
+}
+
+/* Caption text */
+.textCaption {
+    color: #7E7F9A;
+    font-size: 1.2em;
+    margin-top: 10%;
+    width: 100%;
+    position: absolute;
+    text-align: center;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 2% 1% 2% 0;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+    background-color: #7E7F9A;
+}
+
+/* Fading animation */
+.fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+    from {
+        opacity: .4
+    }
+
+    to {
+        opacity: 1
+    }
+}
+
+@keyframes fade {
+    from {
+        opacity: .4
+    }
+
+    to {
+        opacity: 1
+    }
+}
+
+.mySlides:hover .slideImage {
+    opacity: 0.3;
+    transition: .3s ease;
+}
+
+
+/*Displays vertically when width is less than 800*/
+@media screen and (max-width: 800px) {
+    body {
+        font-size: 1em;
+    }
+
+    #imgBanner{
+        width: 70px;
+    }
+
+    #adRotator {
+        width:300px;
+    }
+
+    .slideshow-container {
+        max-width: 500px;
+    }
+
+    #imbLogin {
+        width: 50px;
+    }
+
+    #imbCart {
+        width:50px
+    }
+
+    #socialMediaLinks {
+        margin: 2px auto 2px auto;
+        width: 85%;
+    }
+
+    .socialMedia {
+        width: 150px;
+        margin: 0 1% 0 1%;
+    }
+
+    .imageWithCaption {
+        width: 500px;
+        margin: 2px;
+    }
+
+    #productImage{
+        width: 700px;
+
+    }
+
+    #imgProduct {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 700px;
+        float:initial;
+    }
+
+    #addToCart {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 500px;
+        float: initial;
+    }
+
+    #description {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 500px;
+        float: initial;
+    }
+}
+
+/* decrease text size on 300 px or less screens */
+@media only screen and (max-width: 300px) {
+    .prev, .next, .text {
+        font-size: 0.8em;
+    }
+}

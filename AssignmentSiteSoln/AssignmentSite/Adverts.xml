@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Advertisements>
+  <Ad>
+    <ImageUrl>images/sale917.png</ImageUrl>
+    <NavigateUrl>~/productPages/decks/917Genny.aspx</NavigateUrl>
+    <AlternateText>Spring Sale 917 Deck</AlternateText>
+    <Impressions>1</Impressions>
+    <Keyword>Spring Sale</Keyword>
+  </Ad>
+  <Ad>
+    <ImageUrl>images/saleEnjoi.png</ImageUrl>
+    <NavigateUrl>~/productPages/decks/enjoiPanda.aspx</NavigateUrl>
+    <AlternateText>Spring Sale Enjoi Deck</AlternateText>
+    <Impressions>1</Impressions>
+    <Keyword>Spring Sale</Keyword>
+  </Ad>
+  <Ad>
+    <ImageUrl>images/saleChocolate.png</ImageUrl>
+    <NavigateUrl>~/productPages/decks/chocolateAlvarez.aspx</NavigateUrl>
+    <AlternateText>Spring Sale Chocolate Deck</AlternateText>
+    <Impressions>1</Impressions>
+    <Keyword>Spring Sale</Keyword>
+  </Ad>
+</Advertisements>
